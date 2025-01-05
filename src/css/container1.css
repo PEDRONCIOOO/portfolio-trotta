@@ -29,10 +29,18 @@
     font-size: 1.1rem;
 }
 
+
 .social i{
     border: 1px solid #27272a;
     padding: 8px;
     border-radius: 10px;
+    transition: .3s ease;
+}
+
+.social i:hover{
+    scale: 1.05;
+    filter: brightness(150%);
+    transition: .3s ease;
 }
 
 .local{
