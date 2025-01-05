@@ -6,7 +6,7 @@
 }
 
 .work-title{
-    color: #fff;
+    color: var(--white-100);
 }
 
 .work-box{
@@ -18,7 +18,7 @@
 .work-video{
     width: 100%;
     max-width: 700px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--black-50);
     border-radius: 10px;
     filter: brightness(50%);
     transition: 500ms;

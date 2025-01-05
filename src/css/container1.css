@@ -2,7 +2,7 @@
     max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #27272a;
+    border: 1px solid var(--gray-1);
     padding: 20px;
     border-radius: 10px;
 }
@@ -15,7 +15,7 @@
 .wrapper-info img{
     width: 150px;
     border-radius: 50%;
-    border: 1px solid #27272a;
+    border: 1px solid var(--gray-1);
 }
 
 .name-links{
@@ -26,7 +26,7 @@
 }
 
 .name-links h1{
-    color: #fff;
+    color: var(--white-100);
     font-size: 2.25rem;
 }
 
@@ -37,7 +37,7 @@
 
 
 .social i{
-    border: 1px solid #27272a;
+    border: 1px solid var(--gray-1);
     padding: 8px;
     border-radius: 10px;
     transition: .3s ease;
@@ -57,7 +57,7 @@
 
 .local a, .local i{
     font-size: .9rem;
-    color:rgba(136, 138, 143, 0.767);
+    color:var(--gray-3);
 }
 
 .local i{
@@ -68,6 +68,6 @@
 .intro-wrapper{
     margin-top: 1rem;
     font-size: 16px;
-    color: #ffff;
+    color: var(--white-100);
     text-align: justify;
 }

@@ -6,7 +6,7 @@
 }
 
 .what-i-work{
-    color: white;
+    color: var(--white-100);
 }
 
 @keyframes scroll {
@@ -28,7 +28,7 @@
 }
 
   .slider {
-    background: #111111;
+    background: var(--black-all);
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     height: 100px;
     margin: auto;
@@ -83,7 +83,7 @@
   }
 
   .slide span{
-    color: #fff;
+    color: var(--white-100);
     font-size: 1.3rem;
     font-weight: 600;
   }
@@ -92,7 +92,7 @@
 
   /* SECONDD SLIDE  */
   .slider2 {
-    background: #111111;
+    background: var(--black-all);
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     height: 100px;
     margin: auto;
@@ -149,7 +149,7 @@
   }
 
   .slide span{
-    color: #fff;
+    color: var(--white-100);
     font-size: 1.3rem;
     font-weight: 600;
   }

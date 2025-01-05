@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import flagBrazil from '../../imgs/flag-brasil.svg';
+import flagUSA from '../../imgs/flag-usa.svg';
 
 
 const HeaderPT = () => {
@@ -15,8 +17,12 @@ const HeaderPT = () => {
                 </div>
 
                 <div className="translate-region">
-                    <Link to="/pt">BR</Link>
-                    <Link to="/">USA</Link>
+                    <Link to="/pt"><div className="flag-region">
+                        <img src={flagBrazil} alt="" />BR
+                        </div></Link>
+                    <Link to="/"><div className="flag-region">
+                        <img src={flagUSA} alt=''/>USA
+                        </div></Link>
                 </div>
             </div>
         </div>
