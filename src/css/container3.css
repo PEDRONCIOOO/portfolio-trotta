@@ -6,6 +6,34 @@
     padding: 2rem;
 }
 
+.wrapper-experience::before{
+    content: '';
+    margin-left: 0.5rem;
+    background-color: rgb(49 146 154 );
+    border: 1px solid rgb(248 250 252);
+    border-width: 4px;
+    border-radius: 9999px;
+    height: 0.5rem;
+    width: 0.5rem;
+    display: flex;
+    left: -5%;
+    top: 1.3rem;
+    position: relative;
+}
+
+.mw-50 .wrapper-experience:not(:last-child)::after{
+    content: '';
+    margin-left: -1.4rem;
+    background-color: rgb(248 250 252);
+    border-width: 1px;
+    height: 180px;
+    width: 2px;
+    display: flex;
+    position: absolute;
+    margin-top: -6rem;
+    z-index: -1;
+}
+
 .wrapper-experience a{
     color: #31929A;
     font-weight: 500;

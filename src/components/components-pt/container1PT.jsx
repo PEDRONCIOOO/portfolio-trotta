@@ -1,4 +1,4 @@
-const Container1 = () => {
+const Container1PT = () => {
     return(
         <div className="section">
             <div className="card-info">
@@ -17,11 +17,11 @@ const Container1 = () => {
                     </div>
                 </div>
                 <div className="intro-wrapper">
-                I'm 23 year old Software Engineer. I have been programming for more than 5 years. I create professional websites.
+                Tenho 23 anos e sou Full Stack Web Developer. Venho programando por mais de 5 anos. Crio websites, sistemas, jogos profissionais.
                 </div>
             </div>
         </div>
     )
 }
 
-export default Container1;
+export default Container1PT;

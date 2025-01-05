@@ -6,9 +6,11 @@
     "@react-three/fiber": "^8.17.10",
     "boxicons": "^2.1.4",
     "cra-template": "1.2.0",
+    "gsap": "^3.12.5",
     "heroku": "^10.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1"
   },
   "scripts": {

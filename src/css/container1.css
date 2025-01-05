@@ -12,6 +12,12 @@
     flex-direction: column;
 }
 
+.wrapper-info img{
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #27272a;
+}
+
 .name-links{
     display: flex;
     justify-content: space-between;

@@ -1,22 +1,27 @@
-import Header from '../components/headerComp.jsx'
-import Container1 from '../components/container1.jsx'
-import Container2 from '../components/container2.jsx';
-import Container3 from '../components/container3.jsx';
-import Container4 from '../components/container4.jsx';
-import Footer from '../components/footerComp.jsx'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Layout from '../components/Layout.jsx';
+import IndexPortuguese from '../views/indexPortuguese.jsx';
+import AnimatedLayout from '../components/AnimatedLayout';
+
 
 const IndexView = () => {
     return (
-      <div className="index-wrapper">
-        <Header/>
-        <Container1/>
-        <Container2/>
-        <Container3/>
-        <Container4/>
-        <Footer/>
-      </div>
+        <Router>
+            <Routes>
+                  <Route path="/" element={
+                  <AnimatedLayout>
+                  <Layout />
+                  </AnimatedLayout>
+                  } />
+
+                <Route path="/pt" element={
+                  <AnimatedLayout>
+                  <IndexPortuguese />
+                  </AnimatedLayout>
+                  } />
+            </Routes>
+        </Router>
     );
-  }
-  
+};
+
 export default IndexView;
-  
