@@ -1,0 +1,25 @@
+.header-wrapper{
+    height: 8vh;
+}
+
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navigation-refs{
+    display: flex;
+    gap: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.translate-region{
+    display: flex;
+    gap: 15px;
+}

@@ -1,0 +1,19 @@
+footer {
+    max-width: 60rem;
+    padding-top: 1rem;
+    margin: 0 auto 2rem;
+    text-align: center;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    border-top: 1px solid #313131;
+    margin-top: 5rem;
+}
+
+.footer-txt{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    color: #FFF;
+    gap: 5px;
+    font-size: .8rem;
+}

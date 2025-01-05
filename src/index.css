@@ -1,0 +1,49 @@
+@import url(./css/header.css);
+@import url(./css/container1.css);
+@import url(./css/container2.css);
+@import url(./css/container3.css);
+@import url(./css/container4.css);
+@import url(./css/footer.css);
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --black-50: rgb(0, 0, 0, 50%);
+  --black-100: rgb(0, 0, 0, 100%);
+  --black-25: rgba(0, 0, 0, 25%);
+}
+
+body{
+  background-color: #111111;
+}
+.section{
+  max-width: 1080px;
+  margin: 20px auto 0px auto;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.name-color{
+  color: #31929A;
+}

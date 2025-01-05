@@ -1,0 +1,31 @@
+.my-work-wrapper{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.work-title{
+    color: #fff;
+}
+
+.work-box{
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+.work-video{
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    filter: brightness(50%);
+    transition: 500ms;
+}
+
+.work-video:hover{
+    filter: brightness(100%);
+    scale: 1.05;
+    transition: 500ms;
+}

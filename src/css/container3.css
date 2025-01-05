@@ -1,0 +1,25 @@
+.experience{
+    color: white;
+}
+
+.wrapper-experience{
+    padding: 2rem;
+}
+
+.wrapper-experience a{
+    color: #31929A;
+    font-weight: 500;
+}
+
+.wrapper-experience h3{
+    color: white;
+}
+
+.wrapper-experience span{
+    color: gray;
+    font-size: .8rem;
+}
+
+.wrapper-experience p{
+    color: white;
+}
