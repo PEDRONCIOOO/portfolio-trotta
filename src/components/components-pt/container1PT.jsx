@@ -6,6 +6,9 @@ const Container1PT = () => {
                     <div className="name-links">
                         <h1>Pedro Trotta</h1>
                         <div className="social-box">
+                        <a href="https://www.linkedin.com/in/pedro-trota-853b17323/" target="_blank" rel="noreferrer" className="social">
+                            <i class='bx bxl-linkedin'></i>
+                            </a>
                             <a href="https://discord.gg/underr" rel="noreferrer" target="_blank" className="social"><i className='bx bxl-discord-alt'></i></a>
                             <a href="https://wa.me/67999710088" target="_blank" rel="noreferrer" className="social"><i className='bx bxl-whatsapp' ></i></a>
                             <a href="mailto:pedroforte1911@gmail.com" className="social"><i className='bx bxl-gmail' ></i></a>
@@ -19,6 +22,7 @@ const Container1PT = () => {
                 <div className="intro-wrapper">
                 Tenho 23 anos e sou Full Stack Web Developer. Venho programando por mais de 5 anos. Crio websites, sistemas, jogos profissionais.
                 </div>
+                {/* <div className="linkedin-wrapper mw-50 badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="pedro-trota-853b17323" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/pedro-trota-853b17323/en?trk=profile-badge">Entre em contato!</a></div> */}
             </div>
         </div>
     )
